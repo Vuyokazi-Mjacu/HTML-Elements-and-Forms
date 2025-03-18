@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML Elements and Forms</title>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to Cape Town</h1>
+        </header>
+    <section>
+        <h2>Top attractions in Cape Town</h2>
+        <ol type="I">
+            <li>Table Mountain</li>
+            <li>Robben Island</li>
+            <li>V&A Waterfront</li>
+            <li>Kirstenbosch National Botanical Gaden</li>
+            <li>Cape of Goog Hope</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Beautiful Cape Town</h2>
+        <img src="capetown.jpg" alt="Beautiful Landscape" width="500">
+    </section>
+
+    <section>
+        <h2>Tourist Information Centers</h2>
+        <table border="1">
+        <Tr>
+            <th>Name</th>
+            <th>adrress</th>
+            <th>Phone</th>
+            <th>Email</th>
+        </Tr>
+
+        <tr>
+            <td>Cape Town Tourism</td>
+            <td>33 Martin Hammerschlag Way, Cape Town City Centre, Cape Town, 8000</td>
+            <td>+27 21 487 6800</td>
+            <td>info@capetown.com</td>
+        </tr>
+
+        <tr>
+            <td>Table Mountain Visters Center</td>
+            <td>2 Light House Road, Kommetjie, 7975</td>
+            <td>+27 21 424 0015</td>
+            <td>info@tablemountain.net</td>
+        </tr>
+<tr>
+    <td>Robben Island</td>
+    <td>NELSON MANDELA GATEWAY</td>
+    <td>+27 21 413 4200</td>
+    <td>infow@robben-island.org.za</td>
+</tr>
+
+<tr>
+    <td>V&A Waterfront</td>
+    <td>Waterway House, 3 Dock Road, Victoria & Alfred Waterfront, Cape Town, 8001</td>
+    <td>+27 21 408 7600</td>
+    <td>info@waterfront.co.za</td>
+</tr>
+<tr>
+    <td>Kirstenbosch National Botanical Garden</td>
+    <td>Rhodes Dr, Newlands, Cape Town, 7735</td>
+    <td>+27 21 799 8783</td>
+    <td>KirstenboschInfo@sanbi.org.za</td>
+</tr>
+<tr>
+    <td>Cape of Good Hope Tours</td>
+    <td>Cape Point Main Gate, Off Plateau Road, Simons Town, 7975</td>
+    <td>+27 21 780 9010</td>
+    <td> info@capepoint.co.za</td>
+</tr>
+</table>
+    </section>
+
+    <section>
+        <h2>Join Our Travel Community</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label><br>
+
+            <label for="interests">Favorite Activity in Cape Town:</label>
+            <select id="interests" name="interests">
+                <option value="hiking">Hiking</option>
+                <option value="beaches">Beaches</option>
+                <option value="wine_tasting">Wine Tasting</option>
+                <option value="safari">Safari</option>
+            </select><br>
+
+            <label>Subscribe to:</label>
+            <input type="checkbox" name="newsletter" value="events"> Events & Festivals
+            <input type="checkbox" name="newsletter" value="deals"> Travel Deals
+            <input type="checkbox" name="newsletter" value="guides"> Travel Guides<br>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Discover Cape Town</h2>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <video width="320" height="240" controls>
+            <source src="CT,vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+        
+
+    </body>
+</html>
